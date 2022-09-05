@@ -3,5 +3,5 @@ name: Generate yolo config
 runs:
   using: "composite"
   steps: 
-    - run: echo "Hello la team"
+    - run: echo ${{github.run_number}}
       shell: bash
