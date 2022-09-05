@@ -1,0 +1,7 @@
+name: Generate yolo config
+
+runs:
+  using: "composite"
+  steps: 
+    - run: echo "Hello la team"
+      shell: bash
